@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		327261FD1B3F0B2600A17F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327261FC1B3F0B2600A17F0A /* AppDelegate.swift */; };
+		327262021B3F0B2600A17F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327262001B3F0B2600A17F0A /* Main.storyboard */; };
+		327262041B3F0B2600A17F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327262031B3F0B2600A17F0A /* Assets.xcassets */; };
+		327262071B3F0B2600A17F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327262051B3F0B2600A17F0A /* LaunchScreen.storyboard */; };
+		327262121B3F0B2700A17F0A /* petcupidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262111B3F0B2700A17F0A /* petcupidTests.swift */; };
+		3272621D1B3F0B2700A17F0A /* petcupidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272621C1B3F0B2700A17F0A /* petcupidUITests.swift */; };
+		3272623B1B3F164200A17F0A /* PetProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272623A1B3F164200A17F0A /* PetProfileController.swift */; };
+		3272623C1B3F164200A17F0A /* PetProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272623A1B3F164200A17F0A /* PetProfileController.swift */; };
+		3272623D1B3F164200A17F0A /* PetProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272623A1B3F164200A17F0A /* PetProfileController.swift */; };
+		3272623F1B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272623E1B3F1D9B00A17F0A /* PetCupidViewModel.swift */; };
+		327262401B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272623E1B3F1D9B00A17F0A /* PetCupidViewModel.swift */; };
+		327262411B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272623E1B3F1D9B00A17F0A /* PetCupidViewModel.swift */; };
+		327262431B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262421B3F1DC500A17F0A /* PetProfileViewModel.swift */; };
+		327262441B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262421B3F1DC500A17F0A /* PetProfileViewModel.swift */; };
+		327262451B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262421B3F1DC500A17F0A /* PetProfileViewModel.swift */; };
+		327262471B3F1DDA00A17F0A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262461B3F1DDA00A17F0A /* Pet.swift */; };
+		327262481B3F1DDA00A17F0A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262461B3F1DDA00A17F0A /* Pet.swift */; };
+		327262491B3F1DDA00A17F0A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262461B3F1DDA00A17F0A /* Pet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3272620E1B3F0B2700A17F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327261F11B3F0B2600A17F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327261F81B3F0B2600A17F0A;
+			remoteInfo = petcupid;
+		};
+		327262191B3F0B2700A17F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327261F11B3F0B2600A17F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327261F81B3F0B2600A17F0A;
+			remoteInfo = petcupid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		327261F91B3F0B2600A17F0A /* petcupid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = petcupid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		327261FC1B3F0B2600A17F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		327262011B3F0B2600A17F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		327262031B3F0B2600A17F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		327262061B3F0B2600A17F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		327262081B3F0B2600A17F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3272620D1B3F0B2700A17F0A /* petcupidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = petcupidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		327262111B3F0B2700A17F0A /* petcupidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petcupidTests.swift; sourceTree = "<group>"; };
+		327262131B3F0B2700A17F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327262181B3F0B2700A17F0A /* petcupidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = petcupidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3272621C1B3F0B2700A17F0A /* petcupidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petcupidUITests.swift; sourceTree = "<group>"; };
+		3272621E1B3F0B2700A17F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3272623A1B3F164200A17F0A /* PetProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetProfileController.swift; sourceTree = "<group>"; };
+		3272623E1B3F1D9B00A17F0A /* PetCupidViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCupidViewModel.swift; sourceTree = "<group>"; };
+		327262421B3F1DC500A17F0A /* PetProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetProfileViewModel.swift; sourceTree = "<group>"; };
+		327262461B3F1DDA00A17F0A /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		327261F61B3F0B2600A17F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272620A1B3F0B2700A17F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327262151B3F0B2700A17F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327261F01B3F0B2600A17F0A = {
+			isa = PBXGroup;
+			children = (
+				327261FB1B3F0B2600A17F0A /* petcupid */,
+				327262101B3F0B2700A17F0A /* petcupidTests */,
+				3272621B1B3F0B2700A17F0A /* petcupidUITests */,
+				327261FA1B3F0B2600A17F0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		327261FA1B3F0B2600A17F0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				327261F91B3F0B2600A17F0A /* petcupid.app */,
+				3272620D1B3F0B2700A17F0A /* petcupidTests.xctest */,
+				327262181B3F0B2700A17F0A /* petcupidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		327261FB1B3F0B2600A17F0A /* petcupid */ = {
+			isa = PBXGroup;
+			children = (
+				3272622D1B3F15AF00A17F0A /* Model */,
+				327262301B3F15B900A17F0A /* View */,
+				327262331B3F15C300A17F0A /* ViewModel */,
+				3272622A1B3F15A600A17F0A /* Controller */,
+				327261FC1B3F0B2600A17F0A /* AppDelegate.swift */,
+				327262031B3F0B2600A17F0A /* Assets.xcassets */,
+				327262081B3F0B2600A17F0A /* Info.plist */,
+			);
+			path = petcupid;
+			sourceTree = "<group>";
+		};
+		327262101B3F0B2700A17F0A /* petcupidTests */ = {
+			isa = PBXGroup;
+			children = (
+				327262111B3F0B2700A17F0A /* petcupidTests.swift */,
+				327262131B3F0B2700A17F0A /* Info.plist */,
+			);
+			path = petcupidTests;
+			sourceTree = "<group>";
+		};
+		3272621B1B3F0B2700A17F0A /* petcupidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3272621C1B3F0B2700A17F0A /* petcupidUITests.swift */,
+				3272621E1B3F0B2700A17F0A /* Info.plist */,
+			);
+			path = petcupidUITests;
+			sourceTree = "<group>";
+		};
+		3272622A1B3F15A600A17F0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3272623A1B3F164200A17F0A /* PetProfileController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3272622D1B3F15AF00A17F0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				327262461B3F1DDA00A17F0A /* Pet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		327262301B3F15B900A17F0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				327262051B3F0B2600A17F0A /* LaunchScreen.storyboard */,
+				327262001B3F0B2600A17F0A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		327262331B3F15C300A17F0A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3272623E1B3F1D9B00A17F0A /* PetCupidViewModel.swift */,
+				327262421B3F1DC500A17F0A /* PetProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		327261F81B3F0B2600A17F0A /* petcupid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327262211B3F0B2700A17F0A /* Build configuration list for PBXNativeTarget "petcupid" */;
+			buildPhases = (
+				327261F51B3F0B2600A17F0A /* Sources */,
+				327261F61B3F0B2600A17F0A /* Frameworks */,
+				327261F71B3F0B2600A17F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = petcupid;
+			productName = petcupid;
+			productReference = 327261F91B3F0B2600A17F0A /* petcupid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3272620C1B3F0B2700A17F0A /* petcupidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327262241B3F0B2700A17F0A /* Build configuration list for PBXNativeTarget "petcupidTests" */;
+			buildPhases = (
+				327262091B3F0B2700A17F0A /* Sources */,
+				3272620A1B3F0B2700A17F0A /* Frameworks */,
+				3272620B1B3F0B2700A17F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3272620F1B3F0B2700A17F0A /* PBXTargetDependency */,
+			);
+			name = petcupidTests;
+			productName = petcupidTests;
+			productReference = 3272620D1B3F0B2700A17F0A /* petcupidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		327262171B3F0B2700A17F0A /* petcupidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327262271B3F0B2700A17F0A /* Build configuration list for PBXNativeTarget "petcupidUITests" */;
+			buildPhases = (
+				327262141B3F0B2700A17F0A /* Sources */,
+				327262151B3F0B2700A17F0A /* Frameworks */,
+				327262161B3F0B2700A17F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3272621A1B3F0B2700A17F0A /* PBXTargetDependency */,
+			);
+			name = petcupidUITests;
+			productName = petcupidUITests;
+			productReference = 327262181B3F0B2700A17F0A /* petcupidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327261F11B3F0B2600A17F0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Leonardo Wistuba de França";
+				TargetAttributes = {
+					327261F81B3F0B2600A17F0A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3272620C1B3F0B2700A17F0A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 327261F81B3F0B2600A17F0A;
+					};
+					327262171B3F0B2700A17F0A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 327261F81B3F0B2600A17F0A;
+					};
+				};
+			};
+			buildConfigurationList = 327261F41B3F0B2600A17F0A /* Build configuration list for PBXProject "petcupid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 327261F01B3F0B2600A17F0A;
+			productRefGroup = 327261FA1B3F0B2600A17F0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				327261F81B3F0B2600A17F0A /* petcupid */,
+				3272620C1B3F0B2700A17F0A /* petcupidTests */,
+				327262171B3F0B2700A17F0A /* petcupidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		327261F71B3F0B2600A17F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327262071B3F0B2600A17F0A /* LaunchScreen.storyboard in Resources */,
+				327262041B3F0B2600A17F0A /* Assets.xcassets in Resources */,
+				327262021B3F0B2600A17F0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272620B1B3F0B2700A17F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327262161B3F0B2700A17F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		327261F51B3F0B2600A17F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327262471B3F1DDA00A17F0A /* Pet.swift in Sources */,
+				327261FD1B3F0B2600A17F0A /* AppDelegate.swift in Sources */,
+				3272623F1B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
+				327262431B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
+				3272623B1B3F164200A17F0A /* PetProfileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327262091B3F0B2700A17F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327262481B3F1DDA00A17F0A /* Pet.swift in Sources */,
+				327262121B3F0B2700A17F0A /* petcupidTests.swift in Sources */,
+				327262401B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
+				327262441B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
+				3272623C1B3F164200A17F0A /* PetProfileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327262141B3F0B2700A17F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327262491B3F1DDA00A17F0A /* Pet.swift in Sources */,
+				3272621D1B3F0B2700A17F0A /* petcupidUITests.swift in Sources */,
+				327262411B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
+				327262451B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
+				3272623D1B3F164200A17F0A /* PetProfileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3272620F1B3F0B2700A17F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327261F81B3F0B2600A17F0A /* petcupid */;
+			targetProxy = 3272620E1B3F0B2700A17F0A /* PBXContainerItemProxy */;
+		};
+		3272621A1B3F0B2700A17F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327261F81B3F0B2600A17F0A /* petcupid */;
+			targetProxy = 327262191B3F0B2700A17F0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		327262001B3F0B2600A17F0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327262011B3F0B2600A17F0A /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		327262051B3F0B2600A17F0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327262061B3F0B2600A17F0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3272621F1B3F0B2700A17F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		327262201B3F0B2700A17F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		327262221B3F0B2700A17F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = petcupid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardowf.petcupid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		327262231B3F0B2700A17F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = petcupid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardowf.petcupid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		327262251B3F0B2700A17F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = petcupidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardowf.petcupidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/petcupid.app/petcupid";
+			};
+			name = Debug;
+		};
+		327262261B3F0B2700A17F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = petcupidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardowf.petcupidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/petcupid.app/petcupid";
+			};
+			name = Release;
+		};
+		327262281B3F0B2700A17F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = petcupidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardowf.petcupidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = petcupid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		327262291B3F0B2700A17F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = petcupidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardowf.petcupidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = petcupid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		327261F41B3F0B2600A17F0A /* Build configuration list for PBXProject "petcupid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3272621F1B3F0B2700A17F0A /* Debug */,
+				327262201B3F0B2700A17F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327262211B3F0B2700A17F0A /* Build configuration list for PBXNativeTarget "petcupid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327262221B3F0B2700A17F0A /* Debug */,
+				327262231B3F0B2700A17F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327262241B3F0B2700A17F0A /* Build configuration list for PBXNativeTarget "petcupidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327262251B3F0B2700A17F0A /* Debug */,
+				327262261B3F0B2700A17F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327262271B3F0B2700A17F0A /* Build configuration list for PBXNativeTarget "petcupidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327262281B3F0B2700A17F0A /* Debug */,
+				327262291B3F0B2700A17F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 327261F11B3F0B2600A17F0A /* Project object */;
+}
