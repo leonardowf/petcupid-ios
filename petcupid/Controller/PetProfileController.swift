@@ -8,11 +8,9 @@
 
 import UIKit
 
-class PetProfileController: UIViewController {
+class PetProfileController: PetCupidViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 }

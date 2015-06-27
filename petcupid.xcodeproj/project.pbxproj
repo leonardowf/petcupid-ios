@@ -25,6 +25,9 @@
 		327262471B3F1DDA00A17F0A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262461B3F1DDA00A17F0A /* Pet.swift */; };
 		327262481B3F1DDA00A17F0A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262461B3F1DDA00A17F0A /* Pet.swift */; };
 		327262491B3F1DDA00A17F0A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262461B3F1DDA00A17F0A /* Pet.swift */; };
+		3272624B1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272624A1B3F215A00A17F0A /* PetCupidViewController.swift */; };
+		3272624C1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272624A1B3F215A00A17F0A /* PetCupidViewController.swift */; };
+		3272624D1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272624A1B3F215A00A17F0A /* PetCupidViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,7 @@
 		3272623E1B3F1D9B00A17F0A /* PetCupidViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCupidViewModel.swift; sourceTree = "<group>"; };
 		327262421B3F1DC500A17F0A /* PetProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetProfileViewModel.swift; sourceTree = "<group>"; };
 		327262461B3F1DDA00A17F0A /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		3272624A1B3F215A00A17F0A /* PetCupidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCupidViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				3272623A1B3F164200A17F0A /* PetProfileController.swift */,
+				3272624A1B3F215A00A17F0A /* PetCupidViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 			files = (
 				327262471B3F1DDA00A17F0A /* Pet.swift in Sources */,
 				327261FD1B3F0B2600A17F0A /* AppDelegate.swift in Sources */,
+				3272624B1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */,
 				3272623F1B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
 				327262431B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
 				3272623B1B3F164200A17F0A /* PetProfileController.swift in Sources */,
@@ -318,6 +324,7 @@
 			files = (
 				327262481B3F1DDA00A17F0A /* Pet.swift in Sources */,
 				327262121B3F0B2700A17F0A /* petcupidTests.swift in Sources */,
+				3272624C1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */,
 				327262401B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
 				327262441B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
 				3272623C1B3F164200A17F0A /* PetProfileController.swift in Sources */,
@@ -330,6 +337,7 @@
 			files = (
 				327262491B3F1DDA00A17F0A /* Pet.swift in Sources */,
 				3272621D1B3F0B2700A17F0A /* petcupidUITests.swift in Sources */,
+				3272624D1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */,
 				327262411B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
 				327262451B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
 				3272623D1B3F164200A17F0A /* PetProfileController.swift in Sources */,
