@@ -52,6 +52,12 @@
 		327262E71B3F4FE900A17F0A /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 327262D11B3F4FE900A17F0A /* GothamRnd-Medium.otf */; };
 		327262E81B3F4FE900A17F0A /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 327262D11B3F4FE900A17F0A /* GothamRnd-Medium.otf */; };
 		327262E91B3F4FE900A17F0A /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 327262D11B3F4FE900A17F0A /* GothamRnd-Medium.otf */; };
+		327262EC1B3F711A00A17F0A /* PetCupidTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262EB1B3F711A00A17F0A /* PetCupidTheme.swift */; };
+		327262ED1B3F711A00A17F0A /* PetCupidTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262EB1B3F711A00A17F0A /* PetCupidTheme.swift */; };
+		327262EE1B3F711A00A17F0A /* PetCupidTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262EB1B3F711A00A17F0A /* PetCupidTheme.swift */; };
+		327262F01B3F749600A17F0A /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262EF1B3F749600A17F0A /* ColorUtil.swift */; };
+		327262F11B3F749600A17F0A /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262EF1B3F749600A17F0A /* ColorUtil.swift */; };
+		327262F21B3F749600A17F0A /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327262EF1B3F749600A17F0A /* ColorUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +103,8 @@
 		327262CF1B3F4FE900A17F0A /* GothamRnd-LightIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-LightIta.otf"; sourceTree = "<group>"; };
 		327262D01B3F4FE900A17F0A /* GothamRnd-MedIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-MedIta.otf"; sourceTree = "<group>"; };
 		327262D11B3F4FE900A17F0A /* GothamRnd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.otf"; sourceTree = "<group>"; };
+		327262EB1B3F711A00A17F0A /* PetCupidTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCupidTheme.swift; sourceTree = "<group>"; };
+		327262EF1B3F749600A17F0A /* ColorUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +160,7 @@
 				327262331B3F15C300A17F0A /* ViewModel */,
 				3272622A1B3F15A600A17F0A /* Controller */,
 				327262C81B3F4FE100A17F0A /* Assets */,
+				327262EA1B3F70F500A17F0A /* Util */,
 				327261FC1B3F0B2600A17F0A /* AppDelegate.swift */,
 				327262031B3F0B2600A17F0A /* Assets.xcassets */,
 				327262081B3F0B2600A17F0A /* Info.plist */,
@@ -233,6 +242,16 @@
 				327262D11B3F4FE900A17F0A /* GothamRnd-Medium.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		327262EA1B3F70F500A17F0A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				327262EB1B3F711A00A17F0A /* PetCupidTheme.swift */,
+				327262EF1B3F749600A17F0A /* ColorUtil.swift */,
+			);
+			name = Util;
+			path = Model/Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,12 +408,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327262EC1B3F711A00A17F0A /* PetCupidTheme.swift in Sources */,
 				327262471B3F1DDA00A17F0A /* Pet.swift in Sources */,
 				327261FD1B3F0B2600A17F0A /* AppDelegate.swift in Sources */,
 				3272624B1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */,
 				3272623F1B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
 				327262431B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
 				3272623B1B3F164200A17F0A /* PetProfileController.swift in Sources */,
+				327262F01B3F749600A17F0A /* ColorUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,12 +423,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327262ED1B3F711A00A17F0A /* PetCupidTheme.swift in Sources */,
 				327262481B3F1DDA00A17F0A /* Pet.swift in Sources */,
 				327262121B3F0B2700A17F0A /* petcupidTests.swift in Sources */,
 				3272624C1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */,
 				327262401B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
 				327262441B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
 				3272623C1B3F164200A17F0A /* PetProfileController.swift in Sources */,
+				327262F11B3F749600A17F0A /* ColorUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,12 +438,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327262EE1B3F711A00A17F0A /* PetCupidTheme.swift in Sources */,
 				327262491B3F1DDA00A17F0A /* Pet.swift in Sources */,
 				3272621D1B3F0B2700A17F0A /* petcupidUITests.swift in Sources */,
 				3272624D1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */,
 				327262411B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
 				327262451B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
 				3272623D1B3F164200A17F0A /* PetProfileController.swift in Sources */,
+				327262F21B3F749600A17F0A /* ColorUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
