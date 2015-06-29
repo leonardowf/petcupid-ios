@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321BDE331B40C62600CCF40D /* ThemeApplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321BDE321B40C62600CCF40D /* ThemeApplier.swift */; };
+		321BDE341B40C62600CCF40D /* ThemeApplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321BDE321B40C62600CCF40D /* ThemeApplier.swift */; };
+		321BDE351B40C62600CCF40D /* ThemeApplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321BDE321B40C62600CCF40D /* ThemeApplier.swift */; };
 		327261FD1B3F0B2600A17F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327261FC1B3F0B2600A17F0A /* AppDelegate.swift */; };
 		327262021B3F0B2600A17F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327262001B3F0B2600A17F0A /* Main.storyboard */; };
 		327262041B3F0B2600A17F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327262031B3F0B2600A17F0A /* Assets.xcassets */; };
@@ -78,6 +81,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		321BDE321B40C62600CCF40D /* ThemeApplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeApplier.swift; sourceTree = "<group>"; };
 		327261F91B3F0B2600A17F0A /* petcupid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = petcupid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		327261FC1B3F0B2600A17F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		327262011B3F0B2600A17F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -249,6 +253,7 @@
 			children = (
 				327262EB1B3F711A00A17F0A /* PetCupidTheme.swift */,
 				327262EF1B3F749600A17F0A /* ColorUtil.swift */,
+				321BDE321B40C62600CCF40D /* ThemeApplier.swift */,
 			);
 			name = Util;
 			path = Model/Util;
@@ -412,6 +417,7 @@
 				327262471B3F1DDA00A17F0A /* Pet.swift in Sources */,
 				327261FD1B3F0B2600A17F0A /* AppDelegate.swift in Sources */,
 				3272624B1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */,
+				321BDE331B40C62600CCF40D /* ThemeApplier.swift in Sources */,
 				3272623F1B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
 				327262431B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
 				3272623B1B3F164200A17F0A /* PetProfileController.swift in Sources */,
@@ -427,6 +433,7 @@
 				327262481B3F1DDA00A17F0A /* Pet.swift in Sources */,
 				327262121B3F0B2700A17F0A /* petcupidTests.swift in Sources */,
 				3272624C1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */,
+				321BDE341B40C62600CCF40D /* ThemeApplier.swift in Sources */,
 				327262401B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
 				327262441B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
 				3272623C1B3F164200A17F0A /* PetProfileController.swift in Sources */,
@@ -442,6 +449,7 @@
 				327262491B3F1DDA00A17F0A /* Pet.swift in Sources */,
 				3272621D1B3F0B2700A17F0A /* petcupidUITests.swift in Sources */,
 				3272624D1B3F215A00A17F0A /* PetCupidViewController.swift in Sources */,
+				321BDE351B40C62600CCF40D /* ThemeApplier.swift in Sources */,
 				327262411B3F1D9B00A17F0A /* PetCupidViewModel.swift in Sources */,
 				327262451B3F1DC500A17F0A /* PetProfileViewModel.swift in Sources */,
 				3272623D1B3F164200A17F0A /* PetProfileController.swift in Sources */,

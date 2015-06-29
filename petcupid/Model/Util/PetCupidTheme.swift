@@ -18,6 +18,10 @@ enum ThemeColor {
     case Green
 }
 
+enum ThemeGothamFontWeigth {
+    case Light
+}
+
 class PetCupidTheme: NSObject {
 
     class func getColor(themeColor: ThemeColor) -> UIColor {
@@ -41,5 +45,14 @@ class PetCupidTheme: NSObject {
         }
         
         return color!
+    }
+    
+    class func getGothamFont(fontWeigth: ThemeGothamFontWeigth, size: Int) -> UIFont {
+        let font = UIFont(name: "GothamRounded-Light", size: CGFloat(size))
+        return font!
+    }
+    
+    class func getNavigationBarFontSize() -> Int {
+        return 15
     }
 }
